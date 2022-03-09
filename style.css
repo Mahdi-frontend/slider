@@ -1,0 +1,63 @@
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+*{
+    transition:500ms;
+}
+div.bg {
+    height: 700px;
+    /* width: 100%; */
+    background-image: url(./image/1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+div.bg-content {
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+button {
+    color: green;
+    padding: 15px 25px;
+    background-color: yellow;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+div.icon2 {
+    justify-content: right;
+    display: flex;
+    font-size: 3rem;
+    align-items: center;
+}
+
+div.icon {
+    justify-content: left;
+    position: ab;
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+}
+i{
+    font-size:3rem;
+    color:white;
+    cursor:pointer;
+}
+div.left{
+   position:absolute;
+   left:0px;
+}
+div.right{
+    position:absolute;
+    right:0px;
+}
